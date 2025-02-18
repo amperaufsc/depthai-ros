@@ -7,6 +7,12 @@
       i_pipeline_type: RGBD
     pipeline_gen:
       i_enable_imu: true
+    imu:
+      i_message_type: IMU
+      i_enable_rotation: true
+      i_acc_freq: 400
+      i_gyro_freq: 400
+      i_rot_freq: 400
     left:
       i_publish_topic: true
     right:
