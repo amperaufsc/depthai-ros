@@ -13,7 +13,10 @@
       i_acc_freq: 400
       i_gyro_freq: 400
       i_rot_freq: 400
+    rgb:
+      i_disable_node: true
+      i_publish_topic: false
     left:
       i_publish_topic: true
     right:
-      i_publish_topic: true
+      i_publish_topic: false
