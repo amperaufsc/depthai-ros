@@ -5,6 +5,8 @@
       i_enable_ir: true
       i_nn_type: none
       i_pipeline_type: RGBD
+    pipeline_gen:
+      i_enable_imu: true
     left:
       i_publish_topic: true
     right:
