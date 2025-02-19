@@ -15,6 +15,7 @@
       i_rot_freq: 400
     rgb:
       i_disable_node: true
+      i_simulate_from_topic: true
       i_publish_topic: false
     left:
       i_publish_topic: true
