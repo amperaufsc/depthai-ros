@@ -19,4 +19,4 @@
     left:
       i_publish_topic: true
     right:
-      i_publish_topic: false
+      i_publish_topic: true
