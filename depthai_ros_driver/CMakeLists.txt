@@ -18,6 +18,7 @@ endif()
 
 # find dependencies
 find_package(ament_cmake_auto REQUIRED)
+find_package(OpenCV 4.8.0 EXACT REQUIRED)
 ament_auto_find_build_dependencies()
 
 set(COMMON_DEPS
