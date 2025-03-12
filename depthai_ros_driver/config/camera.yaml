@@ -38,11 +38,11 @@
       i_max_q_size: 4
 
       i_enable_brightness_filter: false
-      i_enable_decimation_filter: true
-      i_enable_spatial_filter: true
-      i_enable_speckle_filter: true
-      i_enable_temporal_filter: true
+      i_enable_decimation_filter: false
+      i_enable_spatial_filter: false
+      i_enable_speckle_filter: false
+      i_enable_temporal_filter: false
 
-      i_stereo_conf_threshold: 230
+      i_stereo_conf_threshold: 240
 
       i_publish_topic: true
