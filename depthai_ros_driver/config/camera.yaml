@@ -5,25 +5,26 @@
       i_enable_ir: true
       i_nn_type: none
       i_pipeline_type: RGBD
+      i_low_bandwidth: true
     pipeline_gen:
       i_enable_imu: true
     imu:
       i_message_type: IMU
-      i_enable_rotation: true
-      i_acc_freq: 400
-      i_gyro_freq: 400
-      i_rot_freq: 400
+      i_sync_method: LINEAR_INTERPOLATE_GYRO  
+      i_enable_rotation: false                         
+      i_acc_freq: 150
+      i_gyro_freq: 150
     rgb:
       i_disable_node: true
       i_simulate_from_topic: true
       i_publish_topic: false
     left:
       i_publish_topic: true
-      i_fps: 60.0
+      i_fps: 30.0
       i_resolution: 1200P
     right:
       i_publish_topic: true
-      i_fps: 60.0
+      i_fps: 30.0
       i_resolution: 1200P
     stereo:
       i_depth_preset: HIGH_DENSITY
@@ -38,7 +39,7 @@
       i_max_q_size: 4
 
       i_enable_brightness_filter: false
-      i_enable_decimation_filter: false
+      i_enable_decimation_filter: true 
       i_enable_spatial_filter: false
       i_enable_speckle_filter: false
       i_enable_temporal_filter: false
