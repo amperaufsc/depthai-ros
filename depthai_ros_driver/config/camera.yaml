@@ -5,17 +5,13 @@
       i_enable_ir: true
       i_nn_type: none
       i_pipeline_type: RGBD
-<<<<<<< HEAD
       i_low_bandwidth: false
-=======
-      i_low_bandwidth: true
->>>>>>> 382659ec867f1b4455af26160890269a0be8901e
     pipeline_gen:
       i_enable_imu: false
     imu:
       i_message_type: IMU
-      i_sync_method: LINEAR_INTERPOLATE_GYRO  
-      i_enable_rotation: false                         
+      i_sync_method: LINEAR_INTERPOLATE_GYRO
+      i_enable_rotation: false
       i_acc_freq: 150
       i_gyro_freq: 150
     rgb:
@@ -43,11 +39,7 @@
       i_max_q_size: 4
 
       i_enable_brightness_filter: false
-<<<<<<< HEAD
-      i_enable_decimation_filter: false 
-=======
-      i_enable_decimation_filter: true 
->>>>>>> 382659ec867f1b4455af26160890269a0be8901e
+      i_enable_decimation_filter: false
       i_enable_spatial_filter: false
       i_enable_speckle_filter: false
       i_enable_temporal_filter: false
